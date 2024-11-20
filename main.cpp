@@ -3,6 +3,13 @@ using namespace std;
 
 void Soma()
 {
+    int parcelaA, parcelaB;
+
+    cout << "Digite o valor da primeira parcela: ";
+    cin >> parcelaA;
+    cout << "Digite o valor da segunda parcela: ";
+    cin >> parcelaB;
+    cout << parcelaA << " + " << parcelaB << " = " << parcelaA + parcelaB;
 }
 
 void Subtracao()
