@@ -36,6 +36,13 @@ void Multiplicacao()
 
 void Divisao()
 {
+    double dividendo, divisor;
+
+    cout << "Digite o valor do dividendo: ";
+    cin >> dividendo;
+    cout << "Digite o valor do divisor: ";
+    cin >> divisor;
+    cout << dividendo << " / " << divisor << " = " << dividendo / divisor;
 }
 
 void Porcentagem()
