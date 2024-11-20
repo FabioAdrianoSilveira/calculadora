@@ -25,6 +25,13 @@ void Subtracao()
 
 void Multiplicacao()
 {
+    double fatorA, fatorB;
+
+    cout << "Digite o valor do primeiro fator: ";
+    cin >> fatorA;
+    cout << "Digite o valor do segundo fator: ";
+    cin >> fatorB;
+    cout << fatorA << " x " << fatorB << " = " << fatorA * fatorB;
 }
 
 void Divisao()
