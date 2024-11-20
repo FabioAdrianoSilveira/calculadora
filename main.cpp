@@ -47,6 +47,13 @@ void Divisao()
 
 void Porcentagem()
 {
+    double parte, todo;
+
+    cout << "Digite o valor da parte: ";
+    cin >> parte;
+    cout << "Digite o valor do todo: ";
+    cin >> todo;
+    cout << parte << "%" << " de " << todo << " = " << (parte / 100) * todo;
 }
 
 int main()
@@ -57,6 +64,7 @@ int main()
     cout << "1) Soma\n2) Subtração \n3) Multiplicação \n4) Divisão \n5) Porcentagem\n\n";
     cout << "Escolha sua operação: ";
     cin >> operation;
+    cout << endl;
 
     if (operation == 1)
     {
