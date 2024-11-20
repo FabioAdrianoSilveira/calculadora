@@ -3,7 +3,7 @@ using namespace std;
 
 void Soma()
 {
-    int parcelaA, parcelaB;
+    double parcelaA, parcelaB;
 
     cout << "Digite o valor da primeira parcela: ";
     cin >> parcelaA;
@@ -14,6 +14,13 @@ void Soma()
 
 void Subtracao()
 {
+    double aditivo, subtrativo;
+
+    cout << "Digite o valor do aditivo: ";
+    cin >> aditivo;
+    cout << "Digite o valor do subtrativo: ";
+    cin >> subtrativo;
+    cout << aditivo << " - " << subtrativo << " = " << aditivo - subtrativo;
 }
 
 void Multiplicacao()
