@@ -12,7 +12,7 @@ Esse projeto se trata de uma calculadora simples em CLI (Command Line Interface)
 Você pode clonar esse repositório com o comando a seguir:
 
 ```bash
-git clone https://github.com/FabioAdrianoSilveira/condominio
+git clone https://github.com/FabioAdrianoSilveira/calculadora
 ```
 
 ---
